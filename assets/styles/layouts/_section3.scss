@@ -1,0 +1,156 @@
+.section3 {
+  background: $black3;
+  padding: 80px 0 0;
+
+  .section3-container {
+    max-width: 1110px;
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+    .section3-left {
+      background: $black1;
+      color: $white1;
+      padding: 30px;
+
+      .left-title {
+        border: 1px dotted $white1;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 500px;
+
+        h3 {
+          color: $or;
+          line-height: 30px;
+          font-size: 2.1rem;
+          font-family: $font1;
+        }
+        h2 {
+          font-family: $font3;
+          color: $white1;
+        }
+        img {
+          width: 30px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+        .left-horaire h2 {
+          color: $or;
+          font-size: 1.3rem;
+        }
+        p {
+          margin-bottom: 30px;
+          margin-top: 20px;
+        }
+        #phone {
+          color: $or;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .section3-right-container {
+      background: $white1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+
+      .section3-title {
+        padding-top: 20px;
+        margin: 20px auto;
+
+        h3 {
+          font-family: $font1;
+          font-size: 2.1rem;
+          line-height: 30px;
+          color: $or;
+        }
+        h2 {
+          font-family: $font2;
+          font-size: 1.9rem;
+          line-height: 25px;
+        }
+        img {
+          margin: 30px auto;
+        }
+      }
+
+      .section3-form {
+        width: 75%;
+        display: grid;
+
+        form {
+
+          input[for="people"] {
+            width: 45px;
+          }
+
+          
+
+          
+
+          label[for="people"],
+          label[for="reservation-time"],
+           input[type="number"]
+          input[type="datetime-local"],
+          input[type="text"] {
+            width: 100%;
+            padding: 20px;
+            height: 45px;
+            font-family: $font3;
+            background: none;
+            font-family: $font3;
+            color: $black1;
+            border: none;
+            text-decoration: none ;
+            border-bottom: 1px solid $grey2;
+            margin: 0 20px;
+            &::placeholder {
+              color: $grey2;
+            }
+          }
+
+          input[type="submit"] {
+            grid-column: span 3;
+            width: auto;
+            padding: 10px 20px;
+            font-family: $font3;
+            color: $white1;
+            background-color: $black1;
+            border: none;
+            border-radius: 20px;
+            margin-top: 60px;
+            cursor: pointer;
+            justify-self: center;
+            
+          
+
+           
+            &:hover {
+              background-color: transparent;
+              color: $black1;
+              border-bottom: 3px solid $grey1;
+              border-top: 1px solid $grey1;
+            }
+
+            &:active {
+              transform: scale(0.9);
+            }
+          }
+          .resa {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 40px;
+          }
+        }
+      }
+    }
+  }
+}
