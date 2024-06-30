@@ -44,7 +44,7 @@
 
     .section1-right {
         flex: 1; // Prend tout l'espace disponible à droite
-        background: url('/assets/img/store-01.jpg') no-repeat center/cover;
+        background: url(../img/store-01.jpg) no-repeat center/cover;
         z-index: 1;
     }
 }
