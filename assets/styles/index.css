@@ -601,6 +601,24 @@ header .header-title p {
   text-transform: none;
   font-weight: 100;
 }
+.section-4 #btn2 {
+  font-family: "Roboto", serif;
+  letter-spacing: 1px;
+  font-weight: 800;
+  background-color: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.section-4 #btn2:hover {
+  color: rgba(250, 250, 250, 0.952);
+  background: rgb(40, 39, 39);
+  border: 1px solid rgba(250, 250, 250, 0.952);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
 .section-4 .section-4-up h3 {
   font-family: "Allura", Arial;
   color: rgb(169, 120, 47);
@@ -619,14 +637,14 @@ header .header-title p {
 }
 .section-4 .section-4-container {
   background: rgb(40, 39, 39);
-  max-width: 1190px;
+  max-width: 1100px;
   display: grid;
   width: 80vw;
   margin: 0 auto;
   padding-top: 40px;
-  gap: 40px;
+  gap: 10px;
   grid-template-columns: 60% 40%;
-  grid-template-rows: repeat(2, 220px);
+  grid-template-rows: repeat(2, 200px);
 }
 .section-4 .section-4-container .section-4-even-left .even-date {
   background: rgb(73, 72, 72);
@@ -698,6 +716,13 @@ header .header-title p {
           align-items: flex-start;
   background: rgba(250, 250, 250, 0.952);
 }
+.section-4 .section-4-container .section-4-even-left .section-4-left-up .even-right h4 {
+  font-family: "Roboto", serif;
+  font-size: 1.7rem;
+  letter-spacing: 1.5px;
+  text-transform: none;
+  font-weight: 100;
+}
 .section-4 .section-4-container .section-4-even-left .section-4-left-up .even-right .main-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -743,6 +768,25 @@ header .header-title p {
   font-size: 1rem;
   font-family: "Roboto", serif;
 }
+.section-4 .section-4-container .section-4-even-left .section-4-left-down .even-right {
+  text-align: left;
+  margin: 0 20px;
+  height: 80%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background: rgba(250, 250, 250, 0.952);
+}
 .section-4 .section-4-container .section-4-even-left .section-4-left-down .even-right h4 {
   font-family: "Roboto", serif;
   font-size: 1.7rem;
@@ -760,8 +804,126 @@ header .header-title p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  opacity: 1;
 }
-.section-4 .section-4-container .section-4-even-left .section-4-left-down .even-right button#btn2 {
+.section-4 .section-4-container .section-4-even-right {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url(../../../assets/img/event-03.jpg) no-repeat center/cover;
+  width: 100%;
+  height: 300px;
+  padding: 40px;
+}
+.section-4 .section-4-container .section-4-even-right .even-main {
+  background: rgba(250, 250, 250, 0.952) no-repeat;
+  height: 200px;
+  width: 80%;
+  margin: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 100px 0;
+}
+.section-4 .section-4-container .section-4-even-right .even-main .even-date {
+  background: rgb(73, 72, 72);
+  color: rgba(250, 250, 250, 0.952);
+  height: 80px;
+  width: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+}
+.section-4 .section-4-container .section-4-even-right .even-main .even-date p {
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: "Roboto", serif;
+}
+.section-4 .section-4-container .section-4-even-right .even-main .even-date span {
+  font-size: 1rem;
+  font-family: "Roboto", serif;
+}
+.section-4 .section-4-container .section-4-even-right .even-main .container h4 {
+  font-family: "Roboto", serif;
+  font-size: 1.7rem;
+  letter-spacing: 1.5px;
+  text-transform: none;
+  font-weight: 100;
+}
+
+.section5 {
+  background: rgb(73, 72, 72);
+  position: relative;
+  min-height: 850px;
+  padding: 180px 0 280px;
+}
+.section5 .section5-container .chef {
+  position: relative;
+  min-height: 380px;
+  width: 1200px;
+  margin: 0 auto;
+  background: rgba(250, 250, 250, 0.952);
+  padding: 60px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.section5 .section5-container .chef img {
+  border-radius: 200px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%), translateY(-50%);
+          transform: translateX(-50%), translateY(-50%);
+}
+.section5 .section5-container .chef p {
+  font-size: 1.3rem;
+  line-height: 40px;
+  font-family: "Roboto", serif;
+}
+.section5 .section5-container .chef h4 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 1px;
   margin-top: 20px;
+  margin-bottom: 15px;
+  font-family: "Roboto", serif;
 }/*# sourceMappingURL=index.css.map */
