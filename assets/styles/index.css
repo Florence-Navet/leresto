@@ -274,13 +274,13 @@ header .header-title p {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  background: url("../../../assets/img/store-01.jpg") no-repeat center/cover;
+  background: url("/assets/img/store-01.jpg") no-repeat center/cover;
   z-index: 1;
 }
 
 .section2 {
   background: rgb(40, 39, 39);
-  background-image: url(../../../assets/img/bg-menu-01.jpg);
+  background-image: url(/assets/img/bg-menu-01.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -670,7 +670,7 @@ header .header-title p {
   grid-template-columns: 30% 70%;
 }
 .section-4 .section-4-container .section-4-even-left .section-4-left-up .even-left-1 {
-  background: url(../../../assets/img/event-01.jpg) center/cover;
+  background: url(/assets/img/event-01.jpg) center/cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -740,7 +740,7 @@ header .header-title p {
   grid-template-columns: 30% 70%;
 }
 .section-4 .section-4-container .section-4-even-left .section-4-left-down .even-left-2 {
-  background: url(../../../assets/img/event-02.jpg) center/cover;
+  background: url(/assets/img/event-02.jpg) center/cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -820,7 +820,7 @@ header .header-title p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(../../../assets/img/event-03.jpg) no-repeat center/cover;
+  background: url(/assets/img/event-03.jpg) no-repeat center/cover;
   width: 100%;
   height: 300px;
   padding: 40px;
